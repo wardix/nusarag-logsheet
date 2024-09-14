@@ -1,0 +1,19 @@
+{
+  "name": "nusarag-logsheet",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/main.ts",
+    "build": "bun build --minify --outfile dist/main.js --target bun src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "google-auth-library": "^9.13.0",
+    "googleapis": "^140.0.1",
+    "nats": "^2.28.2"
+  }
+}
