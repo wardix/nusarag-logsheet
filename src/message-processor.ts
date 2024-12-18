@@ -47,6 +47,7 @@ export async function processEventMessages(consumer: Consumer) {
         data.context,
         data.systemInstruction,
         data.response,
+        data.user,
       ],
     ]
 
